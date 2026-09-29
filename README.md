@@ -1,33 +1,33 @@
-﻿# 你好，我是祈雨 👋
+# 你好，我是祈雨
 
-这里记录我整理的实用工具、VPS 相关内容，以及正在制作的网页项目。
+我正在学习软件工程，关注把前端功能做成结构清晰、可验证、便于交接的 Web 项目。
 
-## 项目精选
+## 技术方向
 
-### [颐和 · 智慧康养](https://github.com/qiyuhuating/yihe-health)
+- 原生 Web 前端：HTML、CSS、JavaScript
+- 前端 HTTP 接入：接口适配、会话处理、错误与版本冲突
+- 质量保障：静态检查、自动化测试、多浏览器回归
+- 工程交付：生产构建、GitHub Actions、GitHub Pages
 
-社区智慧养老服务平台的前端演示项目，包含个人端、管理端、服务指南和资讯等页面。
+## 精选项目
 
-- [在线体验](https://qiyuhuating.github.io/yihe-health/)
-- 技术：HTML、CSS、JavaScript
-- 说明：这是静态演示站，使用模拟数据，不提供真实后端服务。
+### 颐和 · 智慧康养
 
-### [Useful-Tools](https://github.com/qiyuhuating/Useful-Tools)
+面向社区照护场景的前端演示，包含公开页面、居民端与工作人员管理端。
 
-实用工具项目合集，收集和整理日常会用到的工具。
+- 风险事件状态流转与操作留痕
+- 本地演示数据的校验、并发写入与多标签同步
+- 可切换的 HTTP 适配层，为后端接入预留明确契约
+- 46 项浏览器回归用例，覆盖 Chromium、Firefox、WebKit
+- GitHub Actions 检查与独立生产构建
 
-### [github_vps](https://github.com/qiyuhuating/github_vps)
+[在线体验](https://qiyuhuating.github.io/yihe-health/) · [项目说明与架构](https://github.com/qiyuhuating/yihe-health)
 
-关于如何通过 GitHub 申请免费 VPS 的说明与参考资料。
+### 其他仓库
 
-## 项目主题
-
-- 网页演示与前端实践
-- 实用工具与 VPS 相关资料整理
-
-欢迎通过仓库的 Issue 留下建议或反馈。
+- [Useful-Tools](https://github.com/qiyuhuating/Useful-Tools)：归档整理中，暂不作为重点推荐。
+- [github_vps](https://github.com/qiyuhuating/github_vps)：基于上游仓库的 VPS / 虚拟机实验 fork，仅供学习验证。
 
 ## 个性签名
 
 我要我们在一起
-
