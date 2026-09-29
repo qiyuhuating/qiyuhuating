@@ -21,7 +21,7 @@
 - 46 项浏览器回归用例，覆盖 Chromium、Firefox、WebKit
 - GitHub Actions 检查与独立生产构建
 
-[在线体验](https://qiyuhuating.github.io/yihe-health/) · [项目说明与架构](https://github.com/qiyuhuating/yihe-health)
+[在线体验](https://qiyuhuating.github.io/yihe-health/) · [项目说明与架构](https://github.com/qiyuhuating/yihe-health) · [v0.1.0 发布说明](https://github.com/qiyuhuating/yihe-health/releases/tag/v0.1.0)
 
 ### 其他仓库
 
