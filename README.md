@@ -1,22 +1,45 @@
-# 你好，我是祈雨
+# 祈雨 · Qiyu
 
-我正在学习软件工程，做了一组可以交互、注入故障和回放的系统实验。
+I build **inspectable software systems** — from community-care workflows to fault-tolerant task execution, vector search, and distributed consensus.
 
-## 精选项目
+软件工程学习者。关注**可靠性、可观测性与可验证的工程实现**：让系统不仅能运行，也能解释自身在故障下如何表现。
 
-| 项目 | 做什么 | 体验 |
-| --- | --- | --- |
-| [Quorum Lab](https://github.com/qiyuhuating/quorum-lab) | 五节点 Raft 共识实验室：网络分区、选举、日志修复与确定性回放 | [在线实验](https://qiyuhuating.github.io/quorum-lab/) |
-| [Faultline](https://github.com/qiyuhuating/faultline-lab) | SQLite 任务执行引擎：进程崩溃恢复、租约、fencing token 与持久化幂等 | [故障轨迹回放](https://qiyuhuating.github.io/faultline-lab/) |
-| [skipverse](https://github.com/qiyuhuating/skipverse) | TypeScript 向量检索引擎：HNSW、WAL、量化与逐层搜索可视化 | [搜索演示](https://qiyuhuating.github.io/skipverse/) |
-| [contrapunctus](https://github.com/qiyuhuating/contrapunctus) | Fugue Max Tree CRDT 文本引擎：并发编辑、乱序投递与网络故障模拟 | [协作实验](https://qiyuhuating.github.io/contrapunctus/) |
+## Featured projects · 置顶项目
 
-每个仓库提供本地运行方法、测试命令和实现边界。Faultline 的公开页面回放已录制的实验；新故障在本地执行。
+### [颐和健康 · Yihe Health](https://github.com/qiyuhuating/yihe-health)
 
-## 其他项目
+A community-care prototype covering resident records, device signals, medication tasks, risk incidents, and staff workflows. The Python/SQLite backend separates read and write transactions, enforces role-based access, and includes privacy-contract and browser end-to-end checks.
 
-[颐和健康](https://github.com/qiyuhuating/yihe-health)：Python / SQLite 社区照护原型，包含居民资料、设备信号、风险事件、用药任务与工作人员处置。
+**Python · SQLite · HTML/CSS/JavaScript** · [Browser demo](https://qiyuhuating.github.io/yihe-health/) · [Source & validation](https://github.com/qiyuhuating/yihe-health)
 
-## 个性签名
+*The public demo uses browser-local simulated data; it is not a deployed medical backend.*
 
-我要我们在一起
+### [Faultline](https://github.com/qiyuhuating/faultline-lab)
+
+A local task-execution lab built to make failure recovery observable. Crash a worker, inspect lease takeover and fencing-token rejection, and verify durable, idempotent results through repeatable experiments.
+
+**Node.js · TypeScript · SQLite WAL · SSE** · [Recorded fault-trace demo](https://qiyuhuating.github.io/faultline-lab/) · [Design & tests](https://github.com/qiyuhuating/faultline-lab)
+
+*The public page replays recorded traces; new fault experiments run locally.*
+
+### [skipverse](https://github.com/qiyuhuating/skipverse)
+
+A TypeScript vector-search engine with an **HNSW** index, write-ahead logging, snapshots, and vector quantization. Its interactive demo visualizes graph traversal using the same search core as the Node.js engine.
+
+**TypeScript · HNSW · WAL · Zero runtime dependencies** · [Interactive search demo](https://qiyuhuating.github.io/skipverse/) · [Code & API](https://github.com/qiyuhuating/skipverse)
+
+### [Quorum Lab](https://github.com/qiyuhuating/quorum-lab)
+
+A deterministic, five-node **Raft** consensus lab. Inject partitions, delays, dropped messages and node crashes; inspect elections and log repair at the event level, then replay experiments with virtual time.
+
+**TypeScript · React · Web Worker · Raft** · [Interactive consensus lab](https://qiyuhuating.github.io/quorum-lab/) · [Architecture & validation](https://github.com/qiyuhuating/quorum-lab)
+
+## Other explorations · 其他探索
+
+[**contrapunctus**](https://github.com/qiyuhuating/contrapunctus) — a Fugue Max Tree CRDT text engine for exploring concurrent edits, out-of-order delivery and replica convergence. [Try the collaboration lab](https://qiyuhuating.github.io/contrapunctus/).
+
+I aim to keep project boundaries explicit and behavior reproducible. Each featured repository provides local setup instructions, tests, and implementation notes.
+
+---
+
+*我要我们在一起*
